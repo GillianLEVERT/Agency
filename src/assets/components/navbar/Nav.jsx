@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { MdOutlineDarkMode, MdDarkMode } from "react-icons/md"
 
+
 const NavBar = () => {
   const [theme, setTheme] = useState("light");
   const toggleTheme = () => {

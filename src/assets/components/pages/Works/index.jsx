@@ -4,8 +4,8 @@ import data from "../../data/data";
 
 const Works = () => {
   return (
-    <div className="">
-      <p>
+    <div className="container">
+      <p className="text">
         Au fil des années, nous avons pu accompagner les meilleurs.
         Découvrez pas à pas comment nous avons été présents pour lancer vos
         marques préférées.

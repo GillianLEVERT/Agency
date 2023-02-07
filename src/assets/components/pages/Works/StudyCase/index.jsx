@@ -7,12 +7,12 @@ const StudyCase = () => {
   const currentCase = data.find((page) => page.path === path);
 
   return (
-    <div>
-      <h1>{currentCase.name}</h1>
+    <div className="container">
+      <h1 className="text2">{currentCase.name}</h1>
       <br />
-      <p>{currentCase.title}</p>
+      <p className="text">{currentCase.title}</p>
       <br />
-      <p>{currentCase.content}</p>
+      <p className="text">{currentCase.content}</p>
     </div>
   );
 };

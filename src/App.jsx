@@ -7,9 +7,13 @@ import NotFound from "./assets/components/pages/NotFound";
 import StudyCase from "./assets/components/pages/Works/StudyCase";
 import "./style.scss";
 import NavBar from "./assets/components/navbar/Nav";
+import img1 from "./assets/image/agency.png"
+
 
 const App = () => {
   return (
+    <div className="logo">
+    <img src={img1} alt="" />  
     <BrowserRouter>
       <NavBar />
       <Routes>
@@ -20,6 +24,8 @@ const App = () => {
         <Route path="/works/:path" element={<StudyCase />} />
       </Routes>
     </BrowserRouter>
+    </div>
+   
   );
 };
 
